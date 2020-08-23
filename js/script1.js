@@ -6,6 +6,11 @@ let playCerta = document.getElementById('playCerta')
 let playErrada = document.getElementById('playErrada')
 let q1 = document.getElementById('q1')
 let q2 = document.getElementById('q2')
+let q3 = document.getElementById('q3')
+let q4 = document.getElementById('q4')
+let q5 = document.getElementById('q5')
+let q6 = document.getElementById('q6')
+
 
 
 errado1.addEventListener('click', ()=>{
