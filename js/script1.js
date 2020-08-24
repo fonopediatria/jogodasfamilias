@@ -10,6 +10,10 @@ let q3 = document.getElementById('q3')
 let q4 = document.getElementById('q4')
 let q5 = document.getElementById('q5')
 let q6 = document.getElementById('q6')
+let q7 = document.getElementById('q7')
+let q8 = document.getElementById('q8')
+let q9 = document.getElementById('q9')
+let q10 = document.getElementById('q10')
 
 
 
