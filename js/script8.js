@@ -37,6 +37,8 @@ q8_errado3.addEventListener('click', ()=>{
 
 q8_certo.addEventListener('click', ()=>{
 
+    console.log('fim')
+
     q9.style.display = 'block'
 
     playCerta.play()
@@ -45,13 +47,13 @@ q8_certo.addEventListener('click', ()=>{
     
     setTimeout(() => {
 
-        q8.classList.add('animate__backOutDown')       
+         q8.classList.add('animate__backOutDown')       
 
 
-    }, 2000);
+     }, 2000);
 
     setTimeout(() => {
-        q9.classList.add('animate__backInUp')
-        q8.style.display = 'none'
-    }, 1000);
+         q9.classList.add('animate__backInUp')
+         q8.style.display = 'none'
+     }, 1000);
 })

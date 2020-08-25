@@ -18,9 +18,10 @@
 
     <audio src="./assets/audio/certa.mp3" id='playCerta'></audio>
     <audio src="./assets/audio/erro.mp3" id='playErrada'></audio>
-    <h1 class="text-center text-primary">Jogo das Famílias</h1>
+    <audio src="./assets/audio/vitoria.mp3" id='vitoria'></audio>
+    <h1 class="text-center text-primary" id = 'texto1'>Jogo das Famílias</h1>
 
-    <h3 class="text-center text-danger m-5">Clique no objeto que é da mesma família.</h3>
+    <h3 class="text-center text-danger m-5" id = 'titulo'>Clique no objeto que é da mesma família.</h3>
 
     <div class="container-fluid animate__animated" id='q1'>
 
@@ -477,112 +478,117 @@
         </div>
 
 
+    </div>
 
+    <div class="container-fluid animate__animated" id='q9'>
 
-        <div class="container-fluid animate__animated" id='q9'>
+        <div class="row mb-5">
+            <div class="col text-center">
 
-            <div class="row mb-5">
-                <div class="col text-center">
+                <img src="./assets/img/caneta.webp" class="img-principal" alt="">
 
-                    <img src="./assets/img/caneta.webp" class="img-principal" alt="">
-
-                </div>
             </div>
-
-            <div class="row m-5"></div>
-
-            <div class="container-fluid">
-                <div class="row m-5">
-                    <div class="col">
-
-                        <img src="./assets/img/leite.jpeg" class="img-opcoes animate__animated" alt="" id='q9_errado1'>
-
-
-                    </div>
-
-                    <div class="col">
-
-                        <img src="./assets/img/caneta2.jpeg" class="img-opcoes animate__animated" id='q9_certo' alt="">
-
-
-                    </div>
-
-                    <div class="col">
-
-                        <img src="./assets/img/cafe.jpeg" class="img-opcoes animate__animated" id='q9_errado2'
-                            alt="">
-
-
-                    </div>
-
-                    <div class="col">
-
-                        <img src="./assets/img/borracha.jpeg" alt="" class="img-opcoes animate__animated" id='q9_errado3'>
-
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
         </div>
 
-        <div class="container-fluid animate__animated" id='q10'>
+        <div class="row m-5"></div>
 
-            <div class="row mb-5">
-                <div class="col text-center">
+        <div class="container-fluid">
+            <div class="row m-5">
+                <div class="col">
 
-                    <img src="./assets/img/caneta.webp" class="img-principal" alt="">
+                    <img src="./assets/img/leite.jpeg" class="img-opcoes animate__animated" alt="" id='q9_errado1'>
+
+
+                </div>
+
+                <div class="col">
+
+                    <img src="./assets/img/caneta2.jpeg" class="img-opcoes animate__animated" id='q9_certo' alt="">
+
+
+                </div>
+
+                <div class="col">
+
+                    <img src="./assets/img/cafe.jpeg" class="img-opcoes animate__animated" id='q9_errado2' alt="">
+
+
+                </div>
+
+                <div class="col">
+
+                    <img src="./assets/img/borracha.jpeg" alt="" class="img-opcoes animate__animated" id='q9_errado3'>
+
 
                 </div>
             </div>
-
-            <div class="row m-5"></div>
-
-            <div class="container-fluid">
-                <div class="row m-5">
-                    <div class="col">
-
-                        <img src="./assets/img/leite.jpeg" class="img-opcoes animate__animated" alt="" id='q10_errado1'>
-
-
-                    </div>
-
-                    <div class="col">
-
-                        <img src="./assets/img/caneta2.jpeg" class="img-opcoes animate__animated" id='q10_certo' alt="">
-
-
-                    </div>
-
-                    <div class="col">
-
-                        <img src="./assets/img/cafe.jpeg" class="img-opcoes animate__animated" id='q10_errado2'
-                            alt="">
-
-
-                    </div>
-
-                    <div class="col">
-
-                        <img src="./assets/img/borracha.jpeg" alt="" class="img-opcoes animate__animated" id='q10_errado3'>
-
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
         </div>
 
 
 
 
     </div>
+
+    <div class="container-fluid animate__animated" id='q10'>
+
+        <div class="row mb-5">
+            <div class="col text-center">
+
+                <img src="./assets/img/mesa.jpeg" class="img-principal" alt="">
+
+            </div>
+        </div>
+
+        <div class="row m-5"></div>
+
+        <div class="container-fluid">
+            <div class="row m-5">
+                <div class="col">
+
+                    <img src="./assets/img/bolsa.jpeg" class="img-opcoes animate__animated" alt="" id='q10_errado1'>
+
+
+                </div>
+
+                <div class="col">
+
+                    <img src="./assets/img/porta.jpeg" class="img-opcoes animate__animated" id='q10_errado3' alt="">
+
+
+                </div>
+
+                <div class="col">
+
+                    <img src="./assets/img/casa.jpeg" class="img-opcoes animate__animated" id='q10_errado2' alt="">
+
+
+                </div>
+
+                <div class="col">
+
+                    <img src="./assets/img/mesa2.jpeg" alt="" class="img-opcoes animate__animated" id='q10_certo'>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="win text-center" id = 'win'>
+        <img src="./assets/img/winner.svg" alt="">
+    </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -610,6 +616,8 @@
     <script src="./js/script8.js"></script>
     <script src="./js/script9.js"></script>
     <script src="./js/script10.js"></script>
+    <script src="./js//win.js"></script>
+
 </body>
 
 </html>
